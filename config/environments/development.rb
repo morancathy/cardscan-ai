@@ -58,4 +58,8 @@ Rails.application.configure do
   # Use an evented file watcher to asynchronously detect changes in source code,
   # routes, locales, etc. This feature depends on the listen gem.
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
+
+  # Adding this for api...this configures the format used when error occur in devlopmenet mode. 
+    config.debug_exception_response_format
+
 end
